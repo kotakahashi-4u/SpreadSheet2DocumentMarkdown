@@ -4,7 +4,7 @@
 
 Google Apps Scriptを用いて、SpreadSheet内に記載したFAQデータをGoogleドキュメントにマークダウン形式でエクスポートする。  
 その先にGoogleドキュメントをNotebookLMに取り込むことで半自動のFAQシステムが完成する。  
-参考動画: []()
+参考動画: [【革命】NotebookLMでリアルタイム更新できるチャットボットを作ろう！](https://youtu.be/WficDfI8uZo)
 
 ## 使い方
 1. スプレッドシートのコンテナバインド型としてGASを開く。  
