@@ -13,11 +13,11 @@ ${v[3]}
 `;
   });
 
-  // 3. ドキュメントのファイル名を指定
+  // 1. ドキュメントのファイル名を指定
   const docName = "Geminiに関するQ&A";
   let doc;
 
-  // 4. 指定した名前のファイルを探す
+  // 2. 指定した名前のファイルを探す
   const files = DriveApp.getFilesByName(docName);
 
   if (files.hasNext()) {
@@ -31,6 +31,6 @@ ${v[3]}
     doc = DocumentApp.create(docName);
   }
 
-  // 5. ドキュメントに内容を書き込む
+  // 3. ドキュメントに内容を書き込む
   doc.getBody().setText(markdownContent);
 }
